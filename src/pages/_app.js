@@ -1,8 +1,10 @@
 import Head from "next/head";
-import "../tailwindcss/style.css";
 import Router from "next/router";
 import NProgress from "nprogress";
+import { ToastContainer } from "react-toastify";
+import "../../tailwindcss/style.css";
 import "nprogress/nprogress.css";
+import "react-toastify/dist/ReactToastify.css";
 
 NProgress.configure({});
 Router.events.on("routeChangeStart", () => NProgress.start());
@@ -18,6 +20,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
+      <ToastContainer position="top-center"></ToastContainer>
     </>
   );
 }

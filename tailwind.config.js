@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./pages/**/*.{html,js,jsx}"],
+  content: ["./src/pages/**/*.{html,js,jsx}"],
   darkMode: "media", // or 'class'
   theme: {
     screens: {

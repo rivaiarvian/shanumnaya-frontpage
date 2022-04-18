@@ -1,6 +1,7 @@
 import Link from "next/link";
+import axios from "config/axios";
 
-export default function Home() {
+function Home(props) {
   return (
     <div className="container mx-auto mt-4">
       <main>
@@ -12,3 +13,13 @@ export default function Home() {
     </div>
   );
 }
+
+Home.getInitialProps = async () => {
+  try {
+    const data = await axios.get(`/courses`);
+
+    return { data: data.data };
+  } catch (error) {}
+};
+
+export default Home;
