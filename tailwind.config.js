@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/pages/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   darkMode: "media", // or 'class'
   theme: {
     screens: {
@@ -351,22 +351,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      sans: [
-        "ui-sans-serif",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Segoe UI"',
-        "Roboto",
-        '"Helvetica Neue"',
-        "Arial",
-        '"Noto Sans"',
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
+      sans: ["Poppins"],
       serif: [
         "ui-serif",
         "Georgia",
