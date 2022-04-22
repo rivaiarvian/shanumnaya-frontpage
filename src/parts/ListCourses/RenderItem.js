@@ -21,7 +21,7 @@ function RenderItem({ item }) {
             {item?.level ?? "Course level"}
           </h5>
         </div>
-        <Link href="/course/[slug]" as={`/course/${item.id}`}>
+        <Link href="/courses/[slug]" as={`/courses/${item.id}`}>
           <a className="link-wrapped"></a>
         </Link>
       </div>

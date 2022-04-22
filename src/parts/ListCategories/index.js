@@ -37,7 +37,7 @@ function ListCategories() {
     },
     {
       imageName: <TravelGuidance />,
-      name: "TravelGuidance",
+      name: "Travel Guidance",
       total: 73,
     },
   ];

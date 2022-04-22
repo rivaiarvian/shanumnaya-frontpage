@@ -9,28 +9,28 @@ function Footer() {
           <div className="text-white">Company</div>
           <ul className="mt-4">
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   API Developer
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   Career
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   Our Story
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   New Soon
                 </a>
@@ -43,28 +43,28 @@ function Footer() {
           <div className="text-white">Student</div>
           <ul className="mt-4">
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   Get Scholarship
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   Our Pathskills
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   All Features
                 </a>
               </Link>
             </li>
             <li className="mt-2">
-              <Link href="">
+              <Link href="#">
                 <a className="text-indigo-300 hover:text-teal-500 hover:underlive">
                   Refund Policy
                 </a>
